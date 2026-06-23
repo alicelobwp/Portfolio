@@ -1,4 +1,3 @@
-"use client";
 import Navbar from "@/components/navBar";
 import Top from "@/components/top";
 
