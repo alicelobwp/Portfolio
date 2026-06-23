@@ -5,6 +5,13 @@ export default function Top() {
   return (
     <div className="flex flex-col items-center justify-center w-full min-h-screen gap-8 px-4 animate-fade-in md:flex-row md:gap-16">
       <div className="w-full max-w-[200px] md:max-w-[280px]">
+        <div
+          className="absolute top-1/2 left-1/2 -translate-x-1/4 -translate-y-1/2 
+                   w-[300px] h-[300px] sm:w-[450px] sm:h-[450px]
+                   rounded-full opacity-40 blur-3xl pointer-events-none -z-10
+                   bg-[radial-gradient(circle,_#A6BCC9_0%,_transparent_99%)]"
+        />
+
         <img
           src="/mari_stick.png"
           alt="Mari's face"
@@ -12,12 +19,14 @@ export default function Top() {
         />
       </div>
 
-      <div className="flex flex-col items-center text-center md:items-start md:text-left gap-4">
-        <img
-          src="/title.png"
-          alt="welcome to my portfolio"
-          className="max-w-[280px] sm:w-[720px] md:max-w-none h-auto"
-        />
+      <div className="z-10 flex flex-col items-center md:items-start gap-2">
+        <span className="font-sans font-extrabold text-xl sm:text-2xl tracking-tight text-midnightviolet md:ml-2">
+          Welcome to my
+        </span>
+
+        <h1 className="font-serif text-5xl sm:text-7xl md:text-8xl tracking-normal text-[#27478B] uppercase border-b-4 border-midnightviolet/65 pb-1 leading-none">
+          Portfolio
+        </h1>
 
         <div className="flex flex-row items-center justify-center gap-1 w-full">
           <a

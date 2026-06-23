@@ -34,6 +34,8 @@
   --color-midnightviolet: var(--midnightviolet);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-inter: var(--font-inter);
+  --font-playfair: var(--font-playfair);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -43,7 +45,7 @@
     --seashell: #FFF4EB;
     --wheat: #F6E0B6;
     --powderblue: #A6BCC9;
-    --frenchblue: #3E4B8E;
+    --frenchblue: #27478B;
     --midnightviolet: #3D1534;
   }
 }
@@ -57,5 +59,5 @@ body {
   color: var(--frenchblue);
   color: var(--midnightviolet);
   
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif, inter, playfair;
 }
