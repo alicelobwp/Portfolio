@@ -13,7 +13,7 @@ export default function Navbar() {
           <a href="#about" className="text-midnightviolet hover:text-frenchblue transition">About</a>
         </div>
 
-        <div className="text-xl font-black tracking-normal lowercase text-center md:w-1/3 md:text-center text-left text-midnightviolet">
+        <div className="text-xl font-black tracking-normal lowercase text-center md:w-1/3 md:text-center text-midnightviolet">
           Mariah.
         </div>
 
